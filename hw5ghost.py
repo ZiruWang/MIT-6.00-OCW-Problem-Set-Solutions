@@ -59,7 +59,6 @@ def ghost(wordlist):
     print 'Welcome to Ghost!'
     print 'Player 1 goes first.'
     print "Current word fragment:''"
-    winner = 1;
     # if word type is list
     # word = [];
 
