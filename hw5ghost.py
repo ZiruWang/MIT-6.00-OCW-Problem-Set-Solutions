@@ -75,12 +75,11 @@ def ghost(wordlist):
         
         ## if letter valid
         if (letter in string.ascii_letters) == False:
-            input_valid = 0;
             print letter, 'is not a valid input. Please type the letter again.'
             print ''
 
         ## if valid, update word and continue
-        if input_valid == 1:
+        if (letter in string.ascii_letters) == True:
             ## if word type is list
             # word.append(letter);
             
